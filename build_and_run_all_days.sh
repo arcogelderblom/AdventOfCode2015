@@ -3,9 +3,9 @@
 rm -rf _build
 cmake -H. -B_build
 cmake --build _build
-for files in "_build/Day*/Day*"
+for folder in "_build/Day*/Day*"
 do
-    for file in $files
+    for file in $folder
     do
         echo $file
         ./$file
