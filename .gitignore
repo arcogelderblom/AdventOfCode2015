@@ -12,3 +12,4 @@ _deps
 _build*
 .vscode
 .DS_Store
+build*
